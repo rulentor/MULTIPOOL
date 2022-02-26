@@ -92,15 +92,7 @@ const Home: NextPage = () => {
         </span>
     )
 
-    const onFormSubmit = (e) => {
-        if (text) {
-            toastRef.current.show({ severity: 'info', summary: text, life: 3000 });
-        }
-
-        // clear
-        setText('');
-
-        e.preventDefault();
+    const onFormSubmit = () => {
     }
 
     return (
