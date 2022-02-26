@@ -72,12 +72,11 @@ const Home: NextPage = () => {
     );
 
     const headerCard = (
-	    <>
+      <>
 	    <p className="m-0" style={{lineHeight: '1.5'}}>
 		  Multipool tech. 
         </p>
-        <img alt="Card" src="header.png" onError={(e) => e.target.src='https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png'} />
-		</>
+      </>
     )
     const footerCard = (
         <span>
